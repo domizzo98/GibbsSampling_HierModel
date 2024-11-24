@@ -14,7 +14,7 @@ This project implements Gibbs sampling for Bayesian hierarchical models to analy
 
 - With Covariates: Regression framework with school-specific regression coefficients to account for student-level predictors.
 
-## Results and Diagnostics
+## Outputs
 
 - **Trace Plots**: Demonstrate convergence for  (without covariates) and  (with covariates).
 
