@@ -22,7 +22,7 @@ Regression framework with school-specific regression coefficients to account for
 
 The dataset contains:
 
-Y_{i,j}: Score of student i in school j.
+Y <sub>i,j</sub>: Score of student i in school j.
 
 x_{i,j}: Covariates of student i in school j (when covariates are included).
 
