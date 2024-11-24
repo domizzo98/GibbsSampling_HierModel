@@ -14,24 +14,6 @@ This project implements Gibbs sampling for Bayesian hierarchical models to analy
 
 - With Covariates: Regression framework with school-specific regression coefficients to account for student-level predictors.
 
-### Dataset
-
-The dataset contains:
-
-- Y<sub>i,j</sub> : Score of student i in school j.
-
-- x<sub>i,j</sub> : Covariates of student i in school j (when covariates are included).
-
-- m : Number of schools.
-
-- n<sub>j</sub> : Number of students in school j.
-
-### Scripts
-
-gibbs_sampler_no_covariates.py: Implements the Gibbs sampler for the model without covariates.
-
-gibbs_sampler_with_covariates.py: Implements the Gibbs sampler for the model with covariates.
-
 ## Results and Diagnostics
 
 - **Trace Plots**: Demonstrate convergence for  (without covariates) and  (with covariates).
