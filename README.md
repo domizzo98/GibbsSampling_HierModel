@@ -10,9 +10,9 @@ This project implements Gibbs sampling for Bayesian hierarchical models to analy
 
 ## Hierarchical Models
 
-`Model_with_covariates.ipynb` Without Covariates: Student scores modeled with school-specific mean effects.
+`Model_with_covariates.ipynb`: Student scores modeled with school-specific mean effects.
 
-- With Covariates: Regression framework with school-specific regression coefficients to account for student-level predictors.
+`Model_without_covariates.ipynb`: Regression framework with school-specific regression coefficients to account for student-level predictors.
 
 ## Outputs
 
