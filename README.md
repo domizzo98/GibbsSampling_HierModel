@@ -10,11 +10,11 @@ This project implements Gibbs sampling for Bayesian hierarchical models to analy
 
 ### Hierarchical Models
 
-Without Covariates:
+- Without Covariates:
 
 Student scores modeled with school-specific mean effects.
 
-With Covariates:
+- With Covariates:
 
 Regression framework with school-specific regression coefficients to account for student-level predictors.
 
@@ -22,71 +22,19 @@ Regression framework with school-specific regression coefficients to account for
 
 The dataset contains:
 
-Y <sub>i,j</sub>: Score of student i in school j.
+- Y<sub>i,j</sub> : Score of student i in school j.
 
-x_{i,j}: Covariates of student i in school j (when covariates are included).
+- x<sub>i,j</sub> : Covariates of student i in school j (when covariates are included).
 
-m: Number of schools.
+- m: Number of schools.
 
-n_j: Number of students in school j.
+- n<sub>j</sub> : Number of students in school j.
 
 Files:
 
 scores_without_covariates.csv
 
 scores_with_covariates.csv
-
-Methods
-
-1. Hierarchical Model Without Covariates
-
-Model Structure:
-
-
-
-
-
-Gibbs Sampling Steps:
-
-Sample  from its full conditional.
-
-Sample  from its full conditional.
-
-Sample  from its full conditional.
-
-Sample  for each school .
-
-2. Hierarchical Model With Covariates
-
-Model Structure:
-
-
-
-
-
-Gibbs Sampling Steps:
-
-Sample  for each school  from its full conditional.
-
-Sample  from its full conditional.
-
-Sample  from its full conditional.
-
-Sample  from its full conditional.
-
-Implementation
-
-Programming Tools
-
-Python: Used for data handling, implementing the Gibbs sampler, and visualizations.
-
-Libraries:
-
-numpy: Numerical computations.
-
-scipy: Statistical functions.
-
-matplotlib: Visualization.
 
 Scripts
 
