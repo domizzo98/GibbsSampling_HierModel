@@ -38,6 +38,6 @@ With Covariates:
 
 ## References
 
-Hoff, Peter D. *A First Course in Bayesian Statistical Methods*.
+[1] Hoff, Peter D. *A First Course in Bayesian Statistical Methods*.
 
-Project slides and provided datasets.
+[2] Project slides and provided datasets.
